@@ -1,0 +1,210 @@
+body {
+  margin: 0px;
+  padding: 5px;
+  font-size: larger;
+  background: rgb(140, 139, 144);
+  background: linear-gradient(
+    90deg,
+    rgba(140, 139, 144, 1) 0%,
+    rgba(232, 238, 240, 1) 50%,
+    rgba(140, 139, 144, 1) 100%
+  );
+}
+#main {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  grid-template-rows: 60px 400px 400px 500px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+/* NAVBAR */
+#nav {
+  border: 2px solid black;
+  grid-column: 1/4;
+  display: flex;
+  background-color: rgb(190, 186, 179);
+}
+#logo > img {
+  width: 80px;
+  height: 55px;
+}
+#nav ul {
+  list-style: none;
+  display: flex;
+}
+#nav ul li {
+  padding: 0px 10px;
+  border: 2px solid black;
+  border-radius: 50px;
+  margin: 3px;
+}
+#nav ul li:hover {
+  background: gray;
+  cursor: pointer;
+}
+
+/* SECTION-1 */
+#section1 {
+  border: 2px solid black;
+  grid-column: 1/4;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 150px;
+}
+#section1 > p {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+#section1 input {
+  display: block;
+  margin: auto;
+  padding: 5px;
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 300px;
+  margin-bottom: 8px;
+}
+#section1 button {
+  border: 3px solid black;
+  border-radius: 5px;
+  width: 100px;
+  justify-content: center;
+  margin: auto;
+}
+.btn {
+  display: block;
+  margin: auto;
+  width: 40px;
+  border-radius: 8px;
+  justify-content: center;
+}
+.btn:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+/* SECTION-2 */
+#section2 {
+  border: 2px solid black;
+  grid-column: 1/4;
+  display: flex;
+  background-color: rgb(190, 186, 179);
+}
+#section2 p {
+  text-align: center;
+}
+#section2 h2 {
+  text-align: center;
+}
+#box {
+  padding: 10px 10px;
+  display: flex;
+  justify-content: center;
+}
+.box1 {
+  background-color: rgb(97, 101, 109);
+  width: 30%;
+  margin: 10px;
+}
+.box1 > img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+}
+.box2 {
+  background-color: rgb(97, 101, 109);
+  width: 30%;
+  margin: 10px;
+}
+.box2 > img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+}
+.box3 {
+  background-color: rgb(97, 101, 109);
+  width: 30%;
+  margin: 10px;
+}
+.box3 > img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+}
+/* ADD ITEM  */
+#add {
+  border: 2px solid black;
+  grid-column: 1/4;
+}
+.add {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: 50px 300px 100px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 8px;
+}
+.photo {
+  background-color: rgb(190, 186, 179);
+  grid-row: 1/3;
+  grid-column: 1/2;
+}
+.photo > img {
+  display: block;
+  margin: auto;
+  padding-top: 60px;
+  cursor: pointer;
+}
+.heading {
+  background-color: rgb(190, 186, 179);
+  grid-row: 3/4;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.heading input {
+  border-radius: 8px;
+  padding: 3px;
+}
+.contant {
+  border: 2px solid black;
+  background-color: rgb(190, 186, 179);
+  text-align: center;
+  padding: 12px;
+  font-weight: bolder;
+  font-size: larger;
+}
+.write {
+  background-color: white;
+  grid-row: 2/4;
+  border: 2px solid black;
+  font-size: larger;
+}
+
+/* FOOTER */
+#footer {
+  grid-column: 1/4;
+}
+h4 {
+  width: 1500px;
+  text-align: center;
+  border: 2px solid black;
+  background-color: black;
+  color: aliceblue;
+  height: 50px;
+  margin: auto;
+  width: 100%;
+  font-size: larger;
+  padding: 25px;
+}
